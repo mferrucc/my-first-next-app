@@ -1,25 +1,39 @@
 {
-  "tickets": [
-    {
-      "id": "1",
-      "title": "Fix the footer links please",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "low",
-      "user_email": "mario@netninja.dev"
-    },
-    {
-      "id": "2",
-      "title": "Add in a new stylesheet",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "medium",
-      "user_email": "mario@netninja.dev"
-    },
-    {
-      "id": "3",
-      "title": "Fix the footer links",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "high",
-      "user_email": "peach@netninja.dev"
-    }
-  ]
+"tickets": [
+{
+"id": "1",
+"title": "Fix the navigation bar responsiveness",
+"body": "The main navbar overflows on mobile screens smaller than 375px. Need to adjust CSS breakpoints and convert menu items into a collapsible burger menu layout.",
+"priority": "high",
+"user_email": "mario@netninja.dev"
+},
+{
+"id": "2",
+"title": "Add dark mode toggle to user settings",
+"body": "Users are requesting a dark theme option. Need to introduce CSS custom properties for theme colors and save user preference in localStorage.",
+"priority": "medium",
+"user_email": "luigi@netninja.dev"
+},
+{
+"id": "3",
+"title": "Update broken footer links",
+"body": "The links for Privacy Policy and Terms of Service in the footer return 404 errors. Need to route them correctly to the updated legal pages.",
+"priority": "low",
+"user_email": "peach@netninja.dev"
+},
+{
+"id": "4",
+"title": "Optimize image loading speed on landing page",
+"body": "Hero section banner images are over 5MB. Compress asset sizes and implement lazy loading to improve initial page load metrics and lighthouse score.",
+"priority": "high",
+"user_email": "yoshi@netninja.dev"
+},
+{
+"id": "5",
+"title": "Fix CORS error on payment gateway integration",
+"body": "API requests to the checkout endpoint are getting blocked due to missing headers in the backend response. Need to update cross-origin resource sharing policies.",
+"priority": "high",
+"user_email": "bowser@netninja.dev"
+}
+]
 }
