@@ -8,6 +8,9 @@ const nextConfig = {
         as: "*.css",
       },
     },
+    images: {
+    qualities: [75, 100], // Add 100 here
+    },
   },
 };
 

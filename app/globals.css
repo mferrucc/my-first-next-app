@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @theme {
   --color-primary: #3b82f6;
 }
@@ -11,7 +12,7 @@ body {
 }
 
 h1, h2 {
-  @apply font-bold text-primary text-lg;
+  @apply font-bold text-primary text-2xl;
 }
 
 main {
@@ -19,7 +20,7 @@ main {
 }
 
 main > h2 {
-  @apply mb-4 pb-2 text-base;
+  @apply mb-4 pb-2 text-4xl;
 }
 
 p > a {
@@ -72,6 +73,7 @@ form label {
 form input,
 form textarea,
 form select {
+  background-color: whitesmoke;
   @apply block mt-2 my-4 px-2 py-1 rounded-sm w-full;
 }
 
